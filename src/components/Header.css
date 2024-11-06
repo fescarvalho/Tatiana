@@ -1,0 +1,24 @@
+.header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header a {
+  padding: 0.5rem 0.8rem;
+  background-color: #000;
+  border-radius: 5px;
+  color: #7af9e6;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px 1px #42fae0;
+
+  font-family: Acme, "sans-serif";
+  font-size: 1.3rem;
+}
+
+@media (min-width: 1000px) {
+  .header {
+    max-width: 50vw;
+  }
+}

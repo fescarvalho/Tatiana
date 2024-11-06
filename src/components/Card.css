@@ -1,0 +1,116 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0rem 0;
+  margin-top: 0rem;
+}
+
+.home .menuCard {
+  background: #000;
+  font-size: 1.4rem;
+  font-family: "Acme";
+  width: 50%;
+  color: #7af9e6;
+  box-shadow: 0px 0px 0px 2px #42fae0;
+}
+.container h1 {
+  font-family: "Indie Flower";
+  font-size: 5rem;
+  color: #660044;
+  text-shadow: #f70071 0em 0em 0.1em;
+}
+
+.active {
+  margin: 0 auto;
+  width: 90vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 20px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Acme, "sans-serif";
+  font-size: 1.2rem;
+
+  text-align: center;
+}
+.card {
+  margin: 0 auto;
+  width: 90vw;
+  height: 60px;
+
+  padding: 20px 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Acme, "sans-serif";
+  font-size: 1.2rem;
+
+  text-align: center;
+  trasition: box-shadow 0.3s ease;
+}
+
+.content p {
+  margin: 10px 0;
+}
+
+.content h2 {
+  font-family: Indie Flower;
+  font-size: 1.5rem;
+  text-shadow: #f70071 0em 0em 0.5em;
+  margin: 20px 0;
+}
+
+@keyframes boxshadow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.active .content,
+.card .content {
+  margin: 20px 0;
+  color: #fff;
+  font-family: Poppins, "sans-serif";
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.active .content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+  color: rgb(237, 203, 217);
+}
+
+@media (min-width: 1000px) {
+  .card,
+  .active,
+  .home a {
+    max-width: 50vw;
+  }
+  .home .menuCard {
+    width: 10%;
+  }
+  .active .content > img {
+    max-width: 30%;
+    border-radius: 5px;
+  }
+}
