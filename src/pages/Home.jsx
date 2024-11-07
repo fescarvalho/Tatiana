@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fotos } from "../utils/images";
-import Slider from "../components/Slider";
+import Slider2 from "../components/Slider2";
 
 import "./Home.css";
 import Card from "../components/Card";
@@ -16,12 +16,13 @@ const Home = () => {
         exit={{ scaleY: 0 }}
         className="home"
       >
-        <Card slider={<Slider images={fotos} />}> </Card>
+        <Card slider={<Slider2 images={fotos} />}> </Card>
         <h1>Fernando e Tatiana</h1>
-        <p>Juntos a </p>
+        <p class="text">Juntos a :</p>
         <p>
           <ContadorTempoPassado dataPassada="2024-09-08T00:00:00" />
         </p>
+        <span class="separator"></span>
       </motion.div>
     </>
   );

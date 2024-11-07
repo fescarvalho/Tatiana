@@ -1,4 +1,10 @@
 .time {
   padding: 0 1rem;
+  font-family: Indie Flower, "sans-serif";
+  font-size: 1.4rem;
+}
+
+.time span {
   font-family: Poppins;
+  font-size: 1.2rem;
 }

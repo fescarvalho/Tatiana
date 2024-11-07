@@ -62,9 +62,10 @@ function ContadorTempoPassado({ dataPassada }) {
   return (
     <div>
       <div className="time">
-        {tempoPassado.anos} anos, {tempoPassado.meses} meses, {tempoPassado.dias} dias,{" "}
-        {tempoPassado.horas} horas, {tempoPassado.minutos} minutos,{" "}
-        {tempoPassado.segundos} segundos.
+        <span> {tempoPassado.anos} </span> anos, <span>{tempoPassado.meses}</span> meses,{" "}
+        <span>{tempoPassado.dias} </span>dias, <p></p> <span>{tempoPassado.horas} </span>
+        horas, <span>{tempoPassado.minutos} </span> minutos,{" "}
+        <span>{tempoPassado.segundos} </span>segundos.
       </div>
     </div>
   );
