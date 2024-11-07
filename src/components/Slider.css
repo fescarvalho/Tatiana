@@ -1,0 +1,48 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-slides {
+  display: flex;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-slide img {
+  width: 100%;
+  display: block;
+}
+
+/* Estilos para as bolinhas de navegação */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.carousel-dot {
+  width: 10px; /* Tamanho fixo da bolinha */
+  height: 10px; /* Tamanho fixo da bolinha */
+  margin: 0 5px;
+  border-radius: 50%; /* Formato arredondado */
+  background-color: gray;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo da bolinha ativa */
+.carousel-dot.active-dot {
+  width: 10px; /* Tamanho fixo da bolinha */
+  height: 10px; /* Tamanho fixo da bolinha */
+  margin: 0 5px;
+  border-radius: 50%; /* Formato arredondado */
+  background-color: #660044;
+  cursor: pointer;
+}
