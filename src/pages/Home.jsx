@@ -7,6 +7,7 @@ import Slider from "../components/Slider";
 import "./Home.css";
 import Card from "../components/Card";
 import ContadorTempoPassado from "../components/Time";
+import CardText from "../components/CardText";
 
 const Home = () => {
   return (
@@ -19,6 +20,8 @@ const Home = () => {
         <p>
           <ContadorTempoPassado dataPassada="2024-09-08T00:00:00" />
         </p>
+        <CardText />
+
         <span class="separator"></span>
       </div>
     </>

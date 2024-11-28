@@ -1,0 +1,15 @@
+.textcontainer {
+  max-width: 80%;
+  display: flex;
+  margin: 2rem auto;
+  text-align: center;
+  border-top: 1px solid #b04b5d;
+}
+
+.textcontainer p {
+  font-size: 1.2rem;
+  color: #e7e1d1;
+  font-family: Poppins;
+  line-height: 1.5;
+  margin-top: 1.5rem;
+}
