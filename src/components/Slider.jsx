@@ -4,8 +4,11 @@ import imagem1 from "../../public/images/img1.jpg";
 import imagem2 from "../../public/images/img2.jpg";
 import imagem3 from "../../public/images/img3.jpg";
 import imagem4 from "../../public/images/img4.jpg";
+import imagem5 from "../../public/images/img5.jpg";
+import imagem6 from "../../public/images/img6.jpg";
+import imagem7 from "../../public/images/img7.jpg";
 
-const images = [imagem1, imagem2, imagem3, imagem4];
+const images = [imagem1, imagem2, imagem3, imagem4, imagem5, imagem6, imagem7];
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
