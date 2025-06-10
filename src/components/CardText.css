@@ -1,6 +1,6 @@
 .textcontainer {
   max-width: 80%;
-  display: flex;
+  display: block;
   margin: 2rem auto;
   text-align: center;
   border-top: 1px solid #b04b5d;

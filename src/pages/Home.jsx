@@ -1,14 +1,11 @@
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { fotos } from "../utils/images";
-/* import Slider2 from "../components/Slider2"; */
+
 import Slider from "../components/Slider";
 
 import "./Home.css";
 import Card from "../components/Card";
 import ContadorTempoPassado from "../components/Time";
 import CardText from "../components/CardText";
-
+import CardText2 from "../components/CardText2";
 const Home = () => {
   return (
     <>
@@ -21,7 +18,7 @@ const Home = () => {
           <ContadorTempoPassado dataPassada="2024-09-08T00:00:00" />
         </p>
         <CardText />
-
+        <CardText2 />
         <span class="separator"></span>
       </div>
     </>
