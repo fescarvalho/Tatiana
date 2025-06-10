@@ -4,6 +4,13 @@ const CardText = () => {
   return (
     <div className="textcontainer">
       <p>
+       Obrigado por ter entrado em minha vida!!
+       Você me faz o homem mais feliz do mundo.!!
+       Te amo!!
+      </p>
+      <br/>
+      <br/>
+      <p>
         Queria eu ter a habilidade de, em poucas palavras, descrever tudo o que você
         representa para mim. Mas seria impossível traduzir em frases a imensidão do que
         sinto por você. Queria eu realizar todos os seus sonhos, atender cada vontade sua,
